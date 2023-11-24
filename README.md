@@ -1,41 +1,33 @@
-# Project Title
+# DegenToken Smart Contract
 
-Simple overview of use/purpose.
+The DegenToken smart contract is an Ethereum-based ERC-20 token contract designed to offer enhanced functionalities beyond the standard features.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The DegenToken Smart Contract is a Solidity-based Ethereum smart contract that implements a token and item management system. It allows users to mint, transfer, and burn tokens, as well as redeem various in-game items using their tokens.
 
 ## Getting Started
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+To use the DegenToken Smart Contract, you can either deploy it on an Ethereum network or interact with it on existing deployments. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-### Executing program
+### Features
+(1) Minting - The contract owner has the privilege of minting new tokens and distributing them to specified addresses.
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+(2) Burning - Stakeholders have the autonomy to burn their own tokens to contribute to token supply management.
 
-## Help
+(3) Transfers - Users can transfer DegenTokens to other addresses using the "transferTokens" function.
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+(4) Balance - Users are able to view their own balance any time at their own will.
+
+(5) Redeeming - Users can acquire items provided on sale by the contract owner.
 
 ## Authors
+Francis Santos
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
+@justZazzles
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the MIT License
